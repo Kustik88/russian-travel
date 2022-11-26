@@ -9,6 +9,14 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .lead__image {
+        max-width: 100vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .lead__image {
         margin-top: 40px;
