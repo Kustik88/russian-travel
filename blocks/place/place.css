@@ -21,10 +21,11 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
     .place {
         display: flex;
         flex-wrap: wrap;
         row-gap: 32px;
+        column-gap: 0;
     }
 }

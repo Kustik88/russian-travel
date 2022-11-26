@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
     .place__image {
         width: 100vw;
         height: 100vw;
