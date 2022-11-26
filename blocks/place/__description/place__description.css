@@ -8,6 +8,12 @@
     text-align: left;
 }
 
+@media screen and (max-width: 768px) {
+    .place__description {
+        row-gap: 25px;
+    }
+}
+
 @media screen and (max-width: 550px) {
     .place__description {
         margin-left: 16px;
