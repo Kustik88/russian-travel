@@ -1,0 +1,19 @@
+.cover {
+    width: 1184px;
+    height: 740px;
+    margin: 92px auto 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+@media screen and (max-width: 1184px) {
+    .cover {
+        width: 100vw;
+        height: 62.5vw;
+        margin-top: 66px;
+    }
+}
