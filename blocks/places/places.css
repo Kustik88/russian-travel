@@ -16,7 +16,7 @@
     .places {
         max-width: calc(100vw - 48px);
         margin-top: 88px;
-        row-gap: 73px;
+        row-gap: 75px;
     }
 }
 

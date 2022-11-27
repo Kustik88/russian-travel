@@ -3,23 +3,23 @@
     margin: 0;
     display: grid;
     grid-template-columns: 460px auto;
-    grid-template-rows: auto minmax(min-content, 460px);
+    grid-template-rows: auto 460px;
     column-gap: 40px;
     row-gap: 48px;
 }
 
 @media screen and (max-width: 1024px) {
     .place {
-        grid-template-columns: minmax(min-content, 440px) auto;
-        grid-template-rows: auto minmax(min-content, 440px);
+        grid-template-columns: 43vw auto;
+        grid-template-rows: auto auto;
         column-gap: 32px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place {
-        grid-template-columns: 340px auto;
-        grid-template-rows: auto minmax(min-content, 340px);
+        grid-template-columns: 44.3vw auto;
+        grid-template-rows: auto auto;
         column-gap: 28px;
         row-gap: 45px;
     }
