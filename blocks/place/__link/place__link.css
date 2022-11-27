@@ -1,5 +1,5 @@
 .place__link {
-    display: inline;
+    display: inline-block;
     max-width: 456px;
     font-weight: 400;
     font-size: 18px;

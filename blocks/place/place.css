@@ -4,20 +4,24 @@
     display: grid;
     grid-template-columns: 460px auto;
     grid-template-rows: auto 460px;
-    gap: 40px;
+    column-gap: 40px;
+    row-gap: 48px;
 }
 
 @media screen and (max-width: 1024px) {
     .place {
-        grid-template-columns: 42.9vw auto;
+        grid-template-columns: 43vw auto;
         grid-template-rows: auto auto;
-        gap: 32px;
+        column-gap: 32px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place {
-        gap: 28px;
+        grid-template-columns: 44.3vw auto;
+        grid-template-rows: auto auto;
+        column-gap: 28px;
+        row-gap: 45px;
     }
 }
 
