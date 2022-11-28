@@ -1,26 +1,7 @@
 .place__image {
-    background-position: top center;
+    width: 100%;
+    object-fit: cover;
     grid-column: 1/2;
     grid-row: 2/3;
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 1024px) {
-    .place__image {
-        height: 42.9vw;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .place__image {
-        height: 44.3vw;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .place__image {
-        width: 100vw;
-        height: 100vw;
-    }
-}
